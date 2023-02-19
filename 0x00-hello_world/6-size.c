@@ -17,11 +17,11 @@ int main (void)
   float f;
 
 
-  printf("size of char: %c byte(s)", sizeof(d));
-  printf("Size of int:%lu byte(s)", sizeof(a));
-  printf("size of long int:%lu byte(s)", sizeof(b));
-  printf("size of long long ont:%lu byte(s)", sizeof(c));
-  printf("size of float:%f byte(s)", sizeof(f));
+  printf("size of char: %c byte(s)\n", sizeof(d));
+  printf("Size of int:%lu byte(s)\n", sizeof(a));
+  printf("size of long int:%lu byte(s)\n", sizeof(b));
+  printf("size of long long ont:%lu byte(s)\n", sizeof(c));
+  printf("size of float:%f byte(s)\n", sizeof(f));
 
 return 0;
 }

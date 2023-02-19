@@ -10,18 +10,18 @@
 int main (void)
 
 {
-  int a
+  int a;
   long int b;
   long long int c;
   char d;
   float f;
 
 
-  printf("size of char: %c byte(s)", (unsigned long)sizeof(d));
+  printf("size of char: %c byte(s)", sizeof(d));
   printf("Size of int:%lu byte(s)", sizeof(a));
   printf("size of long int:%lu byte(s)", sizeof(b));
   printf("size of long long ont:%lu byte(s)", sizeof(c));
-  printf("size of float:%f byte(s)", (unsigned long)sizeof(f));
+  printf("size of float:%f byte(s)", sizeof(f));
 
 return 0;
 }

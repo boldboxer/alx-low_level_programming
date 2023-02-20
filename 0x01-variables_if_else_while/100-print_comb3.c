@@ -8,22 +8,20 @@ int main(void)
 {
 	int n, m;
 /**/
-	for (n = '0'; n <= '8'; n++)
+	for (n = 48; n <= 56; n++)
 	{
-		for (m = '0'; m <= '9'; m++)
+		for (m = 49; m <= 57; m++)
 		{
-			if (n == '0' && m == '0')
+			if (m > n)
 			{
-				continue;
-			}
-			putchar(m);
-			putchar(n);
-				if (n == '9' && m == '8')
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
 				{
-					continue;
+					putchar(',');
+					putchar(' ');
 				}
-			putchar(',');
-			putchar(' ');
+			}
 		}
 	}
 	putchar('\n');

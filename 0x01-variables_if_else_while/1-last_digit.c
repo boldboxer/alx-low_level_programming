@@ -9,7 +9,6 @@
  */
 int main(void)
 {
-	char str[17];
 	int n;
 
 	srand(time(0));

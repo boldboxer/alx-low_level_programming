@@ -1,6 +1,4 @@
 #include "main.h"
-
-#include "main.h"
 /**
  * _isdigit - checks wether a number passed as an argument is digit number
  * @digit argument to be checked

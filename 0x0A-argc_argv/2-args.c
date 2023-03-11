@@ -1,24 +1,17 @@
+#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-/**
- * main - entry point for program
- *
- * @argc: count of args present
- * @argv: array of char * pointing to args
- *
- * Return: always 0 (success)
- */
-int main(int argc, char *argv[])
-{
-	int i, product = 1;
 
-	if (argc != 3)
+/**
+ * main - A program that prints all arguements it receives
+ * @argc: The arguement counter
+ * @argv: The arguement values
+ * Return: Always 0 (Success)
+ */
+int main(int argc, char **argv)
+{
+	while (argc--)
 	{
-		printf("Error\n");
-		return (1);
+		printf("%s\n", *argv++);
 	}
-	for (i = 1; i < argc; i++)
-		product *= atoi(argv[i]);
-	printf("%d\n", product);
 	return (0);
 }

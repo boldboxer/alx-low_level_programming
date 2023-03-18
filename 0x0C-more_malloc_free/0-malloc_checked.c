@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 /**
  * malloc_checked - performs a malloc, if failed exits
  *
